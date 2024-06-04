@@ -1,4 +1,23 @@
 
+// Seleccionar input al dar click en icono de mouse
+document.addEventListener("DOMContentLoaded", function() {
+    const searchIcon = document.querySelector("#icon-search");
+    const searchInput = document.querySelector("#buscar-productos");
+
+    searchIcon.addEventListener("click", function() {
+        searchInput.focus();
+    });
+});
+
+// desplegar menú al dar click en el botón de menú
+
+
+document.querySelector(".menu-btn").addEventListener("click", () => {
+    document.querySelector(".nav-menu-primary").classList.toggle("show");
+  });
+  
+
+// desplegar input de busqueda al hacer click en icono de lupa
 
 
 

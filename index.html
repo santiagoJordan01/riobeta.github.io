@@ -17,9 +17,7 @@
     </head>
     <body>
         <div class="container">
-            
 
-        
             <!-- Navigation -->
             <nav class="nav-main">
                 <!-- Brand -->
@@ -108,6 +106,7 @@
                     
 
                 </ul>
+                <!-- Login/register section -->
                 <ul class="login">
                     <li class="crear-cuenta">
                         <a href="#" >Crea tu cuenta</a>
@@ -118,6 +117,7 @@
                             Ingresa
                         </a>
                     </li>
+   
                 </ul>
 
 
@@ -126,9 +126,10 @@
                     <li class="search-input">
                         <input id="buscar-productos" type="text" placeholder="Buscar productos...">
                     </li>
+                    
 
                     <li class="icon-search">
-                        <a href="#">
+                        <a href="#" id="icon-search">
                             <i class="fas fa-search"></i>
                         </a>
             
@@ -137,13 +138,52 @@
 
                 </ul>
 
-                
+
+                <!--RIGHT NAV MOBILE  -->
+
+                <ul class="icon-search mobile">
+
+                    <li class="icon-user">
+                        <a href="signin.html">
+                            <i class="fa fa-user"></i>
+                        </a>
+            
+                    </li>
+               
+                    <li class="icon-search mobile">
+                        <a href="#" id="icon-search">
+                            <i class="fas fa-search"></i>
+                        </a>
+            
+                    </li>
+                    <li class="menu-btn">
+                        <a >
+                            <i class="fas fa-bars fa-2x"></i>
+                        </a>
+                    </li>
+ 
+
+
+                </ul>
             </nav>
+
+            <nav class="navigation-search-input mobile">
+                
+                <ul class="search-input mobile">
+                    <li class="search-input mobile ">
+                        <input id="buscar-productos" type="text" placeholder="Buscar productos...">
+                    </li>
+                </ul>
+            </nav>
+
+            
+            
+            
             <hr>
 
         
-        <!--header carrusel  -->
-        <header class="header-carrusel">
+            <!--header carrusel  -->
+            <header class="header-carrusel">
                 <div class="carrusel-container">
                     <h2 id="titulos">Disfrute con Riobeta Diseños</h2>
                     <div class="carrusel-list" id="carrusel-list">
@@ -170,69 +210,70 @@
                 </div>
             </header>
 
-        </div>
-        <section class="nuestra-experiencia">
-            <h2 id="titulos">Sobre nuestra experiencia</h2>
-            <p>En Riobeta Diseños no sólo encontrará lo que necesita, sino también la mejor calidad y al mejor precio. años de experiencia en la industria nos dan una especialización para vender productos con los que los clientes quedan satisfechos y que exceden sus expectativas. Así esté buscando una compra en especial o desee comprar al mayoreo, puede contar con nosotros y nuestros productos, siempre con un servicio de calidad hasta el final. Revise el inventario y llámenos si requiere un producto en especial.</p>
-            <a href="#"><img src="img/wallpaper_section.jpg" alt=""></a>
-
-        </section>
-        <section class="contactenos">
-            
-            <div class="formulario-contacto">
-                <h2 id="titulos">Contáctenos</h2>
-            
-                <div class="fondo-oscuro" id="fondo-oscuro"></div>
-
-                <form method="post">
-                    <label class="name">
-                        <input type="text" required placeholder=" ">
-                        <span class="label-name">Nombre *</span>
-                    
-                    </label>
-                    <label class="username contactenos">
-                        <input type="text" required placeholder=" ">
-                        <span class="label-name">Correo electrónico *</span>
-                    
-                    </label>
-                    <label class="contrasenia">
-                        <input type="text" required placeholder=" ">
-                        <span class="label-name">Asunto *</span>
-                    </label>
-                    <label class="messsage">
-                        <input type="text" required placeholder=" ">
-                        <span class="label-name mensaje">Mensaje *</span>
-                    </label>
-                    <input type="submit" value="Envíar" class="btn">
-                    
-                </form>
-
-
-            </div>
-        </section>
-        <section class="nuestra-ubicación">
-            <h2 id="titulos">Nuestra ubicación</h2>
-            <div id="map"></div>
-
-        </section>
-        <footer class="footer">
-            <div class="footer-container">
-                <ul>
-                    <li><h3>Riobeta Diseños</h3></li>       
-                    <li><a href="#" class="email-footer">info@riobetadiseños.com</a></li>
-                    <ul class="footer-icons">
-                        <li><a href="https://www.instagram.com/riobetadis?igsh=MWVvemF0Y3U2cHE1" class="footer-icon instagram"><i class="fa-brands fa-instagram"></i></a></li>
-                        <li><a href="https://www.facebook.com/riobetadis?mibextid=ZbWKwLx" class="footer-icon facebook"><i class="fa-brands fa-facebook"></i></a></li> 
-                    </ul>
-                    <li>©2024 por Riobeta Diseños.</li>
-                    
-                </ul>
-            </div>
-        </footer>
-
-        <script src="main.js">
+            <section class="nuestra-experiencia">
+                <h2 id="titulos">Sobre nuestra experiencia</h2>
+                <p>En Riobeta Diseños no sólo encontrará lo que necesita, sino también la mejor calidad y al mejor precio. años de experiencia en la industria nos dan una especialización para vender productos con los que los clientes quedan satisfechos y que exceden sus expectativas. Así esté buscando una compra en especial o desee comprar al mayoreo, puede contar con nosotros y nuestros productos, siempre con un servicio de calidad hasta el final. Revise el inventario y llámenos si requiere un producto en especial.</p>
+                <a href="#"><img src="img/wallpaper_section.jpg" alt=""></a>
+    
+            </section>
+            <section class="contactenos">
                 
-        </script>
-        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDaeWicvigtP9xPv919E-RNoxfvC-Hqik&callback=iniciarMap"></script>   
+                <div class="formulario-contacto">
+                    <h2 id="titulos">Contáctenos</h2>
+                
+                    <div class="fondo-oscuro" id="fondo-oscuro"></div>
+    
+                    <form method="post">
+                        <label class="name">
+                            <input type="text" required placeholder=" ">
+                            <span class="label-name">Nombre *</span>
+                        
+                        </label>
+                        <label class="username contactenos">
+                            <input type="text" required placeholder=" ">
+                            <span class="label-name">Correo electrónico *</span>
+                        
+                        </label>
+                        <label class="contrasenia">
+                            <input type="text" required placeholder=" ">
+                            <span class="label-name">Asunto *</span>
+                        </label>
+                        <label class="messsage">
+                            <input type="text" required placeholder=" ">
+                            <span class="label-name mensaje">Mensaje *</span>
+                        </label>
+                        <input type="submit" value="Envíar" class="btn">
+                        
+                    </form>
+    
+    
+                </div>
+            </section>
+            <section class="nuestra-ubicación">
+                <h2 id="titulos">Nuestra ubicación</h2>
+                <div id="map"></div>
+    
+            </section>
+            <footer class="footer">
+                <div class="footer-container">
+                    <ul>
+                        <li><h3>Riobeta Diseños</h3></li>       
+                        <li><a href="#" class="email-footer">info@riobetadiseños.com</a></li>
+                        <ul class="footer-icons">
+                            <li><a href="https://www.instagram.com/riobetadis?igsh=MWVvemF0Y3U2cHE1" class="footer-icon instagram"><i class="fa-brands fa-instagram"></i></a></li>
+                            <li><a href="https://www.facebook.com/riobetadis?mibextid=ZbWKwLx" class="footer-icon facebook"><i class="fa-brands fa-facebook"></i></a></li> 
+                        </ul>
+                        <li>©2024 por Riobeta Diseños.</li>
+                        
+                    </ul>
+                </div>
+            </footer>
+    
+            <script src="main.js">
+                    
+            </script>
+            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDaeWicvigtP9xPv919E-RNoxfvC-Hqik&callback=iniciarMap"></script>   
+        </div>
+       
     </body>
 </html>
